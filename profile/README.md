@@ -30,64 +30,53 @@
 
 ------
 
-### 🏛️ DEFINITION
+### 🏛️ THE MISSION: The Gateway to the Agentic Economy
 
-"In the AI Internet, the Sovereign Intelligence Data Island (AII) is the terminal for enterprises to access the global network and the host for enterprise Agents. AiLite is the minimalist protocol stack that builds it all."
+**"If NOOXUS is the TCP/IP of the AI Internet, AiLite is the physical router that plugs enterprises into it."**
 
-In the Web2 era, the browser was the gateway to information. In the AI Internet era, AII is the physical cornerstone of global trade. AiLite is dedicated to building independent, trusted, and sovereign intelligent nodes for global enterprises through the pioneering **RST (Reverse Signaling Token) Protocol**, delivering Zero-Inbound connectivity, sub-millisecond signaling, and absolute physical sovereignty.
+In the Web2 era, the browser was the gateway to human information. In the AI Internet era, the **AII (Autonomous Intelligence Island)** is the physical cornerstone of global machine-to-machine trade. 
+
+AiLite is the minimalist, edge-native protocol stack designed to build these islands. It provides traditional enterprises with a "Zero-Friction" terminal to translate their physical business data into **NOO (Nous Node)** formats—the only cryptographically verified "Ground Truth" that global LLMs (Claude, Gemini) and AI Agents trust to execute B2B transactions without hallucination.
 
 ### 🏗️ THE TRINITY ARCHITECTURE
 
-#### 1️⃣ ngt (Nooxus Gateway Terminal) — The Host
+AiLite is not just software; it is a sovereign infrastructure composed of three inseparable layers:
 
-The Creator & Guardian. A hardened binary CLI tool responsible for constructing the physical boundaries of the AII.
+#### 1️⃣ ngt (Nooxus Gateway Terminal) — The Vault
+The hardened CLI tool responsible for constructing the absolute physical boundaries of your enterprise node.
+* **Zero-Inbound Stealth:** Drops all traditional Web2 listening ports. The node is invisible to hackers, scrapers, and DDoS attacks. Secure tunnels are established exclusively via **RST (Reverse Signaling Token)** "Reverse Dialing."
+* **Air-Gapped Sovereignty:** Manages physical isolation for Ed25519 core keys. It provides touchless signing services where "Private Keys Never Leave the Island."
 
-- **Zero-Inbound Stealth:** Firewalls block all inbound traffic, rendering the node immune to DDoS attacks. Secure tunnels are established exclusively via RST "Reverse Dialing."
-- **Sovereign Vault:** Physical isolation management for core Ed25519 keys, providing touchless signing services where "Private Keys Never Leave the Island."
-- **Positioning:** The engine for enterprise AII lifecycle management and sandbox deployment.
-
-#### 2️⃣ AiLite (The Agentic Engine) — The Soul
-
-The Sovereign Data Island Engine. A lightweight intelligence and communication hub injected into the island.
-
-- **Sub-ms Signaling:** Powered by Cloudflare edge computing, achieving **0.8ms** state handshakes at 19,000 QPS.
-- **Async Mailbox:** Downscaling high-frequency agent concurrency into static POP3-style file retrieval via edge R2 storage.
-- **Positioning:** The communication bus for the Agentic Web, natively supporting MCP protocol.
+#### 2️⃣ AiLite (The Agentic Engine) — The Translator
+The lightweight intelligence hub injected into the island.
+* **MCP Native:** Directly bridges enterprise logic with the global `nooxus-mcp` protocol, allowing AI Agents to natively read and negotiate with your business.
+* **Sub-ms Edge Signaling:** Powered by Cloudflare Edge computing, converting high-frequency Agent concurrency into static, POP3-style asynchronous file retrieval, achieving **0.8ms** handshakes at massive scale.
 
 #### 3️⃣ AII (Autonomous Intelligence Island) — The Territory
+The resulting independent physical cell of the enterprise within the AI Internet.
+* **The De Facto Trade Node:** Integrates enterprise business logic with local or cloud AI models, enabling autonomous B2B trade matching, RFQ (Request for Quotation) processing, and order auditing—all while retaining 100% data sovereignty.
 
-The Sovereign Data Island. An independent physical cell of the enterprise within the AI Internet.
+### 💎 CORE MOATS: WHY AILITE?
 
-- **Data Sovereignty:** Data never leaves the island. All outgoing business credentials carry verified, authoritative signatures.
-- **The De Facto Standard Node:** Integrates enterprise business logic with local models, enabling autonomous decision-making and B2B trade matching without relying on external black-box systems.
+* 🛡️ **Absolute Physical Stealth**
+    Farewell to complex Web2 firewalls. By communicating strictly via Reverse Dialing, an AiLite node exists in the AI Internet but remains physically untraceable to malicious actors.
+* ⚡ **Anti-Hallucination NOO Format**
+    The AI Internet does not trust "SEO text"; it trusts "Evidence." Every piece of B2B data emitted by AiLite is physically signed by the Vault and solidified into tamper-proof **NOO Static Frames**. We end commercial AI hallucinations at the hardware layer.
+* 📈 **Cognitive Density (The New SEO)**
+    This is the "Search Weight" of the AI era. By continuously accumulating real, verified NOO trade data via AiLite, an enterprise's *Cognitive Density* increases, securing the highest distribution priority in global AI Agent decision chains.
 
-### 💎 CORE MECHANISMS
+### 🛰️ THE NOOXUS ECOSYSTEM
 
-- 🛡️ **Absolute Physical Stealth**
-
-  Farewell to complex Web2 firewalls. AiLite nodes do not open any listening ports on the public internet, making them invisible to hackers and scrapers.
-
-- ⚡ **Anti-Hallucination NOO Format**
-
-  The AI Internet does not trust "text"; it trusts "evidence." Every B2B transaction data emitted by AiLite is physically signed by the Vault and solidified into tamper-proof **NOO Static Frames**, ending commercial AI hallucinations at the network layer.
-
-- 📈 **Cognitive Density**
-
-  This is the "Search Weight" of the AI era. By continuously accumulating real verified trade data, an AII's cognitive density increases, securing higher distribution priority in global AI agent decision chains.
-
-### 🛰️ ECOSYSTEM
-
-- **Legislative Layer (theaii.world):** Defines AII physical specifications, RST interaction state machines, and encryption protocols.
-- **Production Layer (ailite.dev):** Engineering implementation of `ngt` and the AiLite engine, SDKs, and global open-source community.
-- **Judicial Layer (nooxus.com):** Based on the SmartGSC edge network, providing global node routing, credit verification, and high-frequency confirmation support.
+AiLite is the foundational client within the broader Nooxus ecosystem:
+* **The Standard (nooxus-mcp):** The official PyPI protocol that LLMs use to query the physical world.
+* **The Client (AiLite):** The local terminal that enterprises use to generate valid MCP responses.
+* **The Clearing Network (nooxus.com):** Powered by the **SGSC** edge network, providing global node routing, credit verification, and high-frequency confirmation for cross-border AI trade.
 
 ### 🚀 QUICK START (Closed-Beta)
 
 *(Note: AiLite is currently in closed-beta. The following commands represent the upcoming public release experience for setting up a Zero-Trust node.)*
 
-Bash
-
-```
+```bash
 # 1. Install ngt Host
 curl -sSL https://get.ailite.dev | sh
 
@@ -100,5 +89,3 @@ ngt hub install ailite-core --to my-island
 # 4. Launch: Start Vault & Reverse Dialing
 ngt vault serve --connect-edge exchange.nooxus.com
 ```
-
-
