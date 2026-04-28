@@ -6,7 +6,7 @@
 
 > **Welcome to the Agentic Web.**
 > 
-> Your world, 'today', is a new day of the past. From now on, you are the absolute Owner of your Sovereign Intelligence.
+> Your world, 'today', is a new day off the past. From now on, you are the absolute Owner of your Sovereign Intelligence.
 
 <br />
 <br />
